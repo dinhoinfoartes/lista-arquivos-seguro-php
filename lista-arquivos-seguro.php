@@ -13,8 +13,6 @@ if (!$is_local && (!isset($_SERVER['PHP_AUTH_USER']) || !isset($_SERVER['PHP_AUT
     exit;
 }
 
-
-
 // Defina o diretório raiz para listar os arquivos
 $dir = './';
 
